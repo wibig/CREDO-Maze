@@ -1,138 +1,16 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <html>
 
 <head>
 <META content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-<script language="javascript"> 
- 
-function spazi(msgtot,tempo)  { 
-  var sp = " "; 
-  for (var n=0; n <= (10+msgtot.length-tempo); n++) 
-    sp += " "; 
-  return(sp); 
-} 
 
-var msg2 =    
-"Projekt im. Rolanda Maze                                                  ";
 
-   var pos2 = -1; 
-msg3 = spazi(msg2,0) + msg2 + "                  "; 
-function ScrollStatus() { 
-	window.status=msg3.substring(pos2,msg3.length) + msg3.substring(0,pos2); 
-	pos2++; 
-	if( pos2 > msg3.length ) pos2=0; 
-	window.setTimeout("ScrollStatus()",100); 
-} 
- 
-</script> 
 
-<script language="JavaScript">
-
-var popup="Sorry, right-click is disabled.\n\nThis Site Copyright 2000";
-function noway(go) {
-if (document.all) {
-if (event.button == 2) {
-alert(popup);
-return false;
-}
-}
-if (document.layers) {
-if (go.which == 3) {
-alert(popup);
-return false;
-}
-}
-}
-if (document.layers) {
-document.captureEvents(Event.MOUSEDOWN);
-}
-document.onmousedown=noway;
-</script>
-<script language="JavaScript1.1">
-var debug = true;
-function right(e) 
-{
-if (navigator.appName == 'Netscape' && (e.which == 3 || e.which == 2)) return false;
-else if (navigator.appName == 'Microsoft Internet Explorer' && (event.button == 2 || event.button == 3)) {
-alert('This Page is fully protected!');
-return false;
-}
-
-return true;
-}
-document.onmousedown=right;
-if (document.layers) window.captureEvents(Event.MOUSEDOWN);
-window.onmousedown=right;
-</script>
-
-<title>Promieniowanie kosmiczne a klimat</title>
+<title>Cosmic rays</title>
 <base target="Right">
 </head>
 
-<body background="../../bline2.gif" onLoad="ScrollStatus()">
+<body background="bline2.png" onLoad="ScrollStatus()">
 
 <div align="right">
 
@@ -143,12 +21,12 @@ window.onmousedown=right;
       <tr>
         <td width="90%" height="52">
 <p align="center"><font size=+5
-color="#000000"><strong>wielkie peki atmosferyczne</strong></font></td> 
+color="#000000"><strong>Extensive Air Showers</strong></font></td> 
       </tr>    
    <tr>
         <td width="100%" height="19"><strong>
 <center><font
-        size=+1 color="#FF0000"> fizyka wysokich energii w promieniowaniu kosmicznym</font>
+        size=+1 color="#FF0000"> high-energy physics and cosmic rays</font>
  </center></strong></td>      
 </tr>    
 
@@ -168,17 +46,9 @@ color="#000000"><strong>wielkie peki atmosferyczne</strong></font></td>
 </td>
 <td valign="top"><font size =+1> 
 <table border="0" cellpadding="0">    
-<tr>     <td><img src="l_arr.gif"></td><td align="left">
-<!-- <img src="larr1.gif" valign="top">1<br>
- <img src="larr2.gif" valign="top">2<br>
- <img src="larr3.gif" valign="top">OKOKOKOKO<br>
- <img src="larr4.gif" valign="top">4<br>
- <img src="larr5.gif" valign="top">5<br>
- <img src="larr6.gif" valign="top">6<br>
- <img src="larr7.gif" valign="top">7<br>
- <img src="larr8.gif" valign="top">8<br>
- <img src="larr9.gif" valign="top">9<br>-->&nbsp; &nbsp;
-Tak wyglada wielki pek atmosferyczny.</td></tr></table>
+<tr>     <td><img src="up.gif"></td><td align="left">
+>&nbsp; &nbsp;
+This is how EAS lokks like.</td></tr></table>
 <hr>
 <!-- Dzis jestesmy sobie w stanie
 wyobrazic go sobie bez wiekszych problemow. Czastka elementarna wpada w
@@ -190,20 +60,19 @@ cokolwiek nowego wyprodukowac.-->
 
 
 
-Wielki p&#281;k, gdy dotrze wreszcie do powierzchni ziemi sk&#322;ada si&#281;
-z mn&#243;stwa cz&#261;stek, w&#347;r&#243;d kt&#243;rych zdecydowan&#261; wi&#281;kszo&#347;&#263; stanowi&#261; cz&#261;stki
-oddzia&#322;ujace g&#322;&#243;wnie za  po&#347;rednictwem si&#322; elektromagnetycznych. S&#261; to
-elektrony i ich antyczastki: pozytony, a tak&#380;e wysokoenergetyczne fotony
-zwane te&#380; kwantami gamma. Tworz&#261; one sk&#322;adow&#261;   elektromagnetyczn&#261; ( zwan&#261; miekk&#261;)
-wielkiego p&#281;ku. Charakteryzuje si&#281; ona tym, &#380;e jest do&#347;&#263; szybko   poch&#322;aniana
-w materii. Poza tymi cz&#261;stkami w p&#281;ku znale&#380;&#263; mo&#380;na te&#380; sporo cz&#261;stek b&#281;d&#261;cych  
-cie&#380;szymi odpowiednikami (bra&#263;mi jakby) elektronu zwanych <i>mionami</i>. Nie ma ich w zwyk&#322;ej
-otaczaj&#261;cej nas materii, bo s&#261; z natury bardzo nietrwa&#322;e. W spoczynku
-rozpadaj&#261; si&#281; &#347;rednio po 0.0000022 sekundy na elektrony i par&#281; odpowiednich
-neutrin. Od stu lat wiemy jednak za spraw&#261; Alberta Einsteina, &#380;e w
-poruszaj&#261;cych si&#281; uk&#322;adach odniesienia czas p&#322;ynie inaczej (to si&#281; nazywa <i>teoria wzgl&#281;dno&#347;ci</i>). Gdy mion porusza
-si&#281; wzgl&#281;dem nas z du&#380;&#261; pr&#281;dko&#347;ci&#261;, "&#380;yje" z naszego, spoczywaj&#261;cego punktu
-widzenia d&#322;u&#380;ej <br>
+The Extensive Air Shower, when it finally reaches the earth's surface, consists of a multitude of particles, 
+	the vast majority of which are particles interacting mainly through electromagnetic forces. 
+	These are electrons and their antiparticles: positrons, and also high-energy photons called 
+	gamma quanta. They form the electromagnetic ("soft") component of the shower. It is 
+	characterized by the fact that it is absorbed quite quickly in matter. Apart from these 
+	particles, there are also a lot of particles in the shower that are heavier equivalents 
+	(like brothers) of the electron, called muons. They are not found in ordinary matter around us, 
+	because they are by nature very unstable. At rest, they decay on average after 0.0000022 seconds
+	into electrons and a couple of corresponding neutrinos. However, for a hundred years we have known, 
+	thanks to Albert Einstein, that time flows differently in moving reference systems (this is called
+	the theory of relativity). When a muon is moving with respect to us at a high speed, 
+	it "lives" from our resting point of view longer
+ <br>
 1 / [1 - (v/c)<sup><font size=-1>2</font></sup>]<sup><font
 size=-1>1/2</font></sup> razy.<br>
 
@@ -213,331 +82,121 @@ size=-1>1/2</font></sup> razy.<br>
 <table border="0" cellpadding="0" width="95%">    
 <tr>     
 <td valign="top"> 
-<font size =+1>   Dla predko&#347;ci 0.98% predko&#347;ci &#347;wiat&#322;a, co jest
-typow&#261; predko&#347;ci&#261; mion&#243;w w p&#281;ku, daje to czynnik 50 i w wyniku tego &#347;redni
-czas &#380;ycia takiego mionu wyniosi ~0.0001 sekundy. W tym czasie mo&#380;e on
-przelecie&#263; 30 km, a wi&#281;c spokojnie mo&#380;e te&#380; dotrze&#263; do nas wraz z wielkim
-p&#281;kiem. Tak nawiasem m&#243;wiac obecno&#347;&#263; mion&#243;w w wielkich p&#281;kach jest
-oczywistym dowodem s&#322;uszno&#347;ci teorii wzgl&#281;dno&#347;ci (je&#347;li kto&#347; mia&#322;by jeszcze co
-do tego jakie&#347; w&#261;tpliwo&#347;ci).  
-<br>  Miony, tak jak elektrony s&#261; leptonami, co
-oznacza, &#380;e oddzia&#322;uja w zasadzie tylko elektromagnetycznie, a jako &#380;e od
-elektron&#243;w sa ci&#281;&#380;sze jakie&#347; 200 razy, przy ka&#380;dym rozproszeniu na 
-elektronie, czy j&#261;drze atomu trac&#261; odpowiednia 200<sup><font
-size=-1>2</font></sup> razy mniej energii. W sumie przede
-wszystkim wybijaja jedynie elektrony z atom&#243;w - jonizuj&#261; materi&#281;.
-Miony w wielkich p&#281;kach tworz&#261; ich sk&#322;adow&#261; zwan&#261; przenikliw&#261; (tward&#261;). S&#261; one
-w stanie przebi&#263; si&#281; przez grube warstwy ziemi, betonu, czy o&#322;owiu nawet.
+<font size =+1>  
+	For a speed of 0.98% of the speed of light, which is a typical speed of muons in the shower, 
+	this gives a factor 50 and as a result the average lifetime of such a muon will be ~0.0001 
+	second. During this time it can fly 30 km, so it can easily reach us together with the shower. 
+	By the way, the presence of muons in the shower is an obvious proof of the validity 
+	of the theory of relativity (if anyone had any doubts about it).
+Muons, similarly to electrons, are leptons, which means that they interact basically only 
+	electromagnetically, and as they are about 200 times heavier than electrons, with 
+	each scattering on an electron or atomic nucleus they lose correspondingly 200<sup><font
+size=-1>2</font></sup>
+	times less energy. In general, they only knock electrons out of atoms - they ionize matter. 
+	Muons in showers form their component called penetrating (hard). They are able to break 
+	through thick layers of earth, concrete or even lead.
+
+	
 <br><hr><br>
- <b>powstanie wielkiego p&#281;ku</b>
+ <b>origin of the shower</b>
 <br><br>
-Wielki p&#281;k mo&#380;e by&#263; inicjowany u szczytu atmosfery jedynie przez czastk&#281;
-trwa&#322;&#261;, tak&#261;, kt&#243;ra nie rozpad&#322;a si&#281; podczas swej podr&#243;&#380;y z g&#322;ebin kosmosu.
-W&#347;r&#243;d cz&#261;stek elementarnych bezwzgl&#281;dnie trwa&#322;ymi (tak sie przynajmniej
-wydaje) mog&#261; byc tylko najl&#380;ejsi cz&#322;onkowie pewnych grup wyr&#243;&#380;niaj&#261;cych si&#281;
-szczeg&#243;lnymi w&#322;asno&#347;ciami, które zachowane by&#263; musz&#261; przy rozpadach (przyk&#322;adem
-takiej w&#322;asnosci jest cho&#263;by &#322;adunek elektryczny, kt&#243;ry nie mo&#380;e znika&#263;, ot
-tak sobie. Cz&#261;stka na&#322;adowana musi si&#281; rozpa&#347;&#263;, je&#347;li ju&#380; koniecznie musi na inn&#261;, l&#380;ejsz&#261;
-cz&#261;stk&#281;, ale te&#380; obdarzon&#261; &#322;adunkiem i to dok&#322;adnie takim samym!). Najl&#380;ejszymi leptonami na&#322;adowanymi s&#261; elektron (ujemny) i pozyton (dodatni). Najl&#380;ejsz&#261; cz&#261;stk&#261;
-oddzia&#322;uj&#261;c&#261; elektromagnetycznie i niena&#322;adowan&#261; elektrycznie jest foton.
-Nie ma on w ogole masy (spoczynkowej). Najl&#380;ejsz&#261; cz&#261;stk&#261; obdarzon&#261; tak zwanym
-&#322;adunkiem barionowym jest proton. Z&#322;o&#380;one z proton&#243;w i neutron&#243;w j&#261;dra
-atomowe te&#380; (niekiedy) s&#261; trwa&#322;e. Trwa&#322;o&#347;&#263; ich obserwujemu na codzie&#324; siedz&#261;c
-cho&#263;by na krze&#347;le, kt&#243;re nie wydaje si&#281; rozpada&#263; (samo z siebie).   
-<br>
-Aby powsta&#322; wielki p&#281;k atmosferyczny cz&#261;stka, kt&#243;ra go inicjuje musi nie
-tylko prze&#380;yc d&#322;ug&#261; podr&#243;&#380;, ale mie&#263; jeszcze u jej kresu dostatecznie du&#380;&#261; energi&#281;.
-Okazuje si&#281;, &#380;e elektrony (i pozytony) s&#261; zbyt lekkie, aby przemierzaj&#261;c pola
-magnetyczne Galaktyki nie straci&#322;y prawie ca&#322;ej energii, jaką uzyska&#322;y gdzie&#347; daleko, w tajemniczych i do ko&#324;ca niepoznanych procesach produkcji (przyspieszania) promieniowania kosmicznego. S&#261; one w tych
-polach polach odchylane, a ka&#380;dy &#322;adunek poruszaj&#261;cy si&#281; ruchem przyspieszonym (z jakim&#347;
-przyspieszeniem) emituje promieniowanie elektromagnetyczne (tak dzia&#322;a telewizja i Tw&#243;j telefon kom&#243;rkowy!), a dzia&#263; si&#281; to
-mo&#380;e tylko kosztem jego energii kinetycznej. Nie dotyczy to oczywi&#347;cie
-cz&#261;stek niena&#322;adowanych. Gdyby wiec ze &#378;r&#243;de&#322; promieniowania kosmicznego
-wylatywa&#322;y fotony, mia&#322;yby one jakie&#347; szanse wywo&#322;a&#263; wielki p&#281;k w ziemskiej
-atmosferze. W zasadzie nie wiemy, czy tak si&#281; dzieje. Bardzo  
-wysokoenergetyczne fotony ci&#261;gle jeszcze stanowi&#261; jedn&#261; z zagadek fizyki
-promieniowania kosmicznego.    <br><hr><br>
- <b> kaskada elektromagnetyczna</b><br>
+A EAS can only be initiated at the top of the atmosphere by a stable  particle, 
+	one that has not decayed during its journey from the depths of space. 
+	Among elementary particles, only the lightest members of certain groups 
+	can be absolutely stable (at least it seems so). These groups are 
+	distinguished by special properties, which must be preserved during 
+	disintegration (an example of such a property is electric charge, 
+	which cannot disappear just like that. A charged particle must 
+	decay, if it must necessarily decay to another, lighter particle, 
+	but also charged and with exactly the same charge!) The lightest 
+	charged leptons are the electron (negative) and the positron (positive). 
+	The lightest electromagnetic and electrically uncharged particle is the photon. 
+	It has no (rest) mass at all. The lightest particle with a so-called baryon charge 
+	is the proton. Atomic nuclei consisting of protons and neutrons are 
+	also (sometimes) stable. We observe their permanence every day, for 
+	example sitting on a chair, which does not seem to disintegrate 
+	(by itself).<br>
+In order for a Extensive Air Shower to form, the particle that initiates it must 
+	not only survive the long journey, but still have sufficient energy at the end of it. 
+	It turns out that electrons (and positrons) are too light  are too light not to lose almost 
+	all the energy they have gained somewhere far away in the 
+	mysterious and not fully understood processes of producing  and accelerating cosmic rays as they traverse the magnetic fields of the Galaxy. 
+	They are deflected in these fields, and every charge moving with accelerated motion (with some acceleration) 
+	emits electromagnetic radiation (this is how TV and your mobile phone work!), and this can only happen at the 
+	expense of its kinetic energy. This, of course, does not apply to uncharged particles. So, if photons were to
+	fly out from cosmic ray sources, they would have some chance of causing a shower in the Earth's atmosphere. 
+	In fact, we do not know whether this is the case. 
+	Very high-energy photons are still one of the mysteries of cosmic ray physics.
+	
+ <br><hr><br>
+ <b>electromagnetic cascade</b><br>
 
 
-<br> Za&#322;&#243;&#380;my, &#380;e gdzie&#347; wysoko pojawi&#322; si&#281;
-jednak taki foton. Przelatujac w pobli&#380;u jakiego&#347; &#322;adunku elektrycznego
-(najcz&#281;&#347;ciej b&#281;dzie to j&#261;dro atomowe) ma on du&#380;&#261; szans&#281;, &#380;e zamieni si&#281; w
-par&#281; elektron-pozyton. Jest to proces (w pewnym sensie) odwrotny do anihilacji
-materii i antymaterii. Anihilacja polega na tym, &#380;e materia spotkawszy si&#281; z antymateri&#261; zamienia si&#281; w "czyst&#261;" energi&#281;. Idea ta znana jest mi&#322;o&#347;nikom sciece-fiction, gdzie na wielkich mi&#281;dzygwiezdnych
-kr&#261;&#380;ownikach stanowi ona straszliw&#261; i ostateczn&#261; bro&#324; w walce dobra ze z&#322;em obracaj&#261;c w kosmicznym wybuchu w (mi&#281;dzygwiezdny) py&#322; ca&#322;e planety. To oczywi&#347;cie chyba lekka przesada (na dzi&#347;), ale faktem
-jest &#380;e
- pozyton jest antyczastka elektronu.
-Para taka jako ca&#322;o&#347;&#263; ma &#322;adunek elektryczny (i wszystkie inne <i>liczby
-kwantowe</i>, kt&#243;re zachowywa&#263; sie musz&#261;) rowne zeru, a wi&#281;c nic nie stoi na
-przeszkodzie, aby pojawi&#322;a si&#281; nagle "z niczego", je&#347;li tylko to "nic" (foton) ma
-dostatecznie du&#380;o energii do stracenia. W wyniku takiego oddzia&#322;ywania
-wchodzacy foton zamienia si&#281; w dwie cz&#261;stki (elektrycznie na&#322;adowane &#322;adunkami dok&#322;adnie przeciwnymi),
-kt&#243;re unosz&#261; ze sob&#261; (prawie) ca&#322;&#261; jego energi&#281;. S&#261; to energie na tyle du&#380;e,
-aby mog&#322;y w kolejnych zderzeniach produkowa&#263; nowe czastki. <br>
-Elektrony (dla
-pozytonow wszystko wyglada dok&#322;adnie tak samo tak samo - przy du&#380;ych energiach znak &#322;adunku  
-elektrycznego nie gra du&#380;ej roli) przechodz&#261;c w pobli&#380;u ci&#281;&#380;kich (z ich punktu
-widzenia) i nieraz calkiem poka&#378;nie na&#322;adowanych elektrycznie j&#261;der atom&#243;w
-powietrza musz&#261; odchyla&#263; swe tory w ich polach elektrycznych 
-(magnetycznych - zale&#380;y, jak na to patrze&#263;). A wiec, zgodnie z wszelkimi
-zasadami opisywanymi bardzo dok&#322;adnie przez tak zwana elektrodynamik&#281; 
-kwantowa (QED) doznajac przyspieszen musza emitowac fotony.
-(Na tej zasadzie dzia&#322;a, jak ju&#380; powiedziane zosta&#322;o wy&#380;ej telewizja, z t&#261; ma&#322;&#261; tylko
-r&#243;&#380;nic&#261;, &#380;e fale elektromagnetyczne nadajnik&#243;w telewizyjne traktowane jako fotony maj&#261; bardzo malutkie energie.)
-Energia 
-fotonow w wielkim p&#281;ku zalezy oczywi&#347;cie od energii lec&#261;cego elektronu, ale tak&#380;e i od k&#261;ta
-pod jakim zostaje on rozproszony. Cz&#281;sto nowopowsta&#322;y foton
-niesie energie por&#243;wnywaln&#261; z energia wchodzacego elektronu. M&#243;wimy wtedy,
-&#380;e w reakcji takiej powsta&#322; wysokoenergetyczny foton hamowania (ciekawostka: po angielsku
-<i>brehmsstrahlung</i>), no bo elektron prawie si&#281; zatrzyma&#322; - energi&#281; dalej niesie foton i
- w sprzyjajacych warunkach mo&#380;e on zn&#243;w
-zamieni&#263; si&#281; w par&#281; elektron-pozyton i wszystko zaczyna si&#281; od poczatku. I
-trwa to dop&#243;ty, dop&#243;ki cz&#261;stkom w takiej <i>elektromagnetycznej
-kaskadzie</i>  wystarcza energii na tworzenie nast&#281;pnych pokole&#324; cz&#261;stek. 
 <br>
-Gdy
-energie cz&#261;stek w kaskadzie malej&#261; istotn&#261; rol&#281; odgrywa&#263; zaczynaj&#261; jeszcze
-inne procesy strat energii takie jak rozmaite rozproszenia,
-jonizowanie atom&#243;w o&#347;rodka, efekt fotoelektryczny i pare jeszcze innych.
-Kaskada elektromagnetyczna po osi&#261;gni&#281;ciu maksimum swojego rozwoju zaczyna  
-zanika&#263;. Czy zaniknie zupe&#322;nie zanim dotrze do poziomu ziemi, zale&#380;y oczywi&#347;cie
-od tego, jak&#261; energi&#281; mia&#322;a cz&#261;stka na pocz&#261;tku. Tak si&#281; szcz&#281;&#347;liwie sk&#322;ada,
-&#380;e od energii oko&#322;o 10<sup><font size=-1>14-15</font></sup> eV mo&#380;emy ju&#380;
-zobaczy&#263; na poziomie morza kaskady elektromagnetyczne przechodz&#261;ce ca&#322;&#261;  
-grubo&#347;&#263; ziemskiej atmosfery.  
+	Let us assume that somewhere high up such a photon has appeared. Passing near some electric charge (most often it 
+	will be an atomic nucleus) it has a big chance to turn into an electron-positron pair. It is a process (in some sense) 
+	opposite to annihilation of matter and antimatter. Annihilation consists in the fact that matter meeting antimatter turns 
+	into "pure" energy. This idea is known to the fans of sci-fi, where on great interstellar cruisers it constitutes a terrible
+	and ultimate weapon in the fight between good and evil, turning whole planets into (interstellar) dust in a cosmic explosion.
+	This is of course a slight exaggeration (for today), but the fact is that the positron is the antiparticle of the electron. 
+	Such a pair as a whole has electric charge (and all other quantum numbers which must conserve) equal to zero, so nothing stands
+	in the way of its suddenly appearing "from nothing", if only this "nothing" (photon) has enough energy to lose. As a result of
+	such an interaction, the entering photon is transformed into two particles (electrically charged with exactly opposite charges),
+	which carry with them (almost) all of its energy. These energies are large enough to produce new particles in subsequent collisions.
+	
+<br>Electrons (for positrons everything looks exactly the same - at high energies the sign of the electric charge does not play much
+	of a role) passing near heavy (from their point of view) and sometimes quite considerably electrically charged nuclei
+	of atoms of the air must deflect their path in their electric (magnetic - it depends how to look at it) fields. So, 
+	according to all principles described very precisely by the so-called quantum electrodynamics (QED), experiencing 
+	accelerations they must emit photons. On the same principle works, as already mentioned, television, with the
+	only small difference that electromagnetic waves of television transmitters treated as photons have very tiny energies.<br>
+	The energy of photons in a Extensive Air Shower depends, of course, on the energy of the electron, but also on the angle at
+	which it is scattered. Often the newly created photon carries an energy comparable to that of the incoming electron. We 
+	say that in such a reaction a high-energy brehmsstrahlung ('breaking') photon was created,
+	because the electron almost stopped - the energy is still carried by the photon, and under suitable conditions it can change
+	again into an electron-positron pair, and everything starts from the beginning. And this lasts as long as particles in this
+	electromagnetic cascade have enough energy to create next generations of particles.<br>
+	<img src="kaskada_toy.png" width="300"
+        alt="kask">
+<br>When the energies of particles in the cascade are decreasing, other processes of energy loss start to play an important role, such
+	as various scattering, ionization of atoms of the medium, the photoelectric effect and a few more. The electromagnetic 
+	cascade after reaching the maximum of its development begins to disappear. Whether it disappears completely before reaching 
+	the ground level depends, of course, on what energy the particle had at the beginning. It is fortunate that from an energy of about 
+	10<sup><font size=-1>14-15</font></sup> eV we can already see at sea level electromagnetic cascades passing through the entire 
+	thickness of the Earth's atmosphere.
+	
+	
+	
+	
+	
+	
 <br><hr><br>
-<b>oddzia&#322;ywania silne</b>
+<b>what is it all for and what does it involve</b>
 <br><br>
-Wielki p&#281;k inicjowany jest u szczytu atmosfery najcze&#347;ciej jednak przez proton
-(lub jadro atomowe skladajace sie z kilku proton&#243;w i neutronoow). Proton (i
-neutron bed&#261;cy czym&#347; w rodzaju elektrycznie obojetnego protonu) nale&#380;y do
-rodziny cz&#261;stek zwanych hadronami. Cz&#261;stki te oddzia&#322;ywuj&#261; silnie (te
-na&#322;adowane oczywi&#347;cie tak&#380;e elektromagnetycznie). Jest to ten rodzaj si&#322;,
-kt&#243;re utrzymuj&#261; razem j&#261;dra atomowe. Gdyby nie one, j&#261;dra
-rozsypa&#322;yby si&#281;, jako &#380;e s&#261; zbiorowiskami na&#322;adowanych jednakowym (dodatnim)
-&#322;adunkiem, odpychaj&#261;cych si&#281; zatem, proton&#243;w. Si&#322;y powstrzymuj&#261;ce to odpychanie musz&#261;
- wi&#281;c by&#263; odpowiednio pot&#281;&#380;ne. Maj&#261; one jednak z
-natury swej zasi&#281;g ograniczony do typowych rozmiar&#243;w atomowych j&#261;der. (I ca&#322;e szcz&#281;&#347;cie, bo co by by&#322;o, gdyby tak wszystie protony wszech&#347;wiata silnie si&#281; przyci&#261;ga&#322;y. Strach pomy&#347;le&#263;!) 
-<br>
-Zderzaj&#261;ce
-si&#281; hadrony, je&#347;li tylko energie ich s&#261; dostatecznie du&#380;e mog&#261; wytworzy&#263; w
-ci&#261;gle nie do ko&#324;ca poznany spos&#243;b du&#380;&#261; liczb&#281; nowych cz&#261;stek, tak&#380;e
-oczywi&#347;cie hadron&#243;w. Odkrycie takiej kreacji "z niczego" da&#322;o pocz&#261;tek temu,
-co dzi&#347; nazywa si&#281; <i>fizyk&#261; wysokich energii</i>. Wypada pamieta&#263;, &#380;e ten tak modny
-obecnie i wa&#380;ny dzia&#322; fizyki narodzi&#322; si&#281; z bada&#324; nad promieniowaniem
-kosmicznym. <br>
-W procesach elektromagnetycznych przy wysokich energiach (opisanych wy&#380;ej) za ka&#380;dym
-razem w wyniku kolizji pojawia&#322;a sie jedna dodatkowa cz&#261;stka, w procesach
-silnych w zderzeniach tworzone jest ich nieraz bardzo du&#380;o.
-<br>
-
- Obrazek poni&#380;ej przedstawia wynik kolizji dw&#243;ch j&#261;der
-z&#322;ota o energiiach 3 10<sup><font size=-1>10</font></sup> eV/nukleon 
-zarejestrowany przez eksperyment STAR (<a
-href="http://www.star.bnl.gov" target="_top">Solenoid Tracker At
-RHIC)</A>) w akceleratorze RHIC (<a href="http://www.bnl.gov/RHIC/"
-target="_top">Relativistic Heavy Ion Collider</A>) w <a
-href="http://www.bnl.gov" target="_top">Brookhaven</a> Ka&#380;da linia
-to z grubsza jedna wyprodukowana cz&#261;stka. Jest ich w sumie ponad 1000.
-</td> </tr>
-<tr><td><table border="0" cellpadding="3" width="95%">     
-<tr>      
-    <td valign="top">  <div align="center">
-<img src="star_p.jpg" 
-        alt="STAR widok z przodu">
-<br>
-<I><font size =+0> Widok "z przodu"</font></I>
-</div>
-</td>
-<td valign="top">
-<div align="center">
-<img src="star_b.jpg" 
-        alt="STAR widok z boku"><br>
-<I><font size =+0> Widok "z boku"</font></I></div>
-
-</td></tr>
-</table></td>
-</tr> 
-<tr> <td valign="top"> <font size =+1>
- 
-Pojedyncze zderzenie nukleon-nukleon (nukleon, to proton albo neutron, kr&#243;tkie okre&#347;lenie
-elementarnego sk&#322;adnika atomowego j&#261;dra) w tym przypadku odpowiada energii protonu
-promieniowania kosmicznego zderzaj&#261;cego si&#281; z nieruchomym protonem z j&#261;dra atomu powietrza
-mniej wiecej 10<sup><font size=-1>13</font></sup>
-eV. Najwi&#281;ksze energie osiagniete w ziemskich akceleratorach siegaj&#261;
-10<sup><font size=-1>15</font></sup> eV. Rysunek obok przedstawia to, co wiemy
-dzi&#347; o &#347;redniej liczbie cz&#261;stek produkowanych w jednym zderzeniu. Punkty to
-dane pochodz&#261;ce z r&#243;&#380;nych eksperymentow akceleratorowych. Na osi poziomej  
-przedstawiono energi&#281; zderzajacego sie protonu (w uk&#322;adzie odniesienia
-zwanym <i>laboratoryjnym</i>, zwi&#261;zanym z drug&#261; cz&#261;stka, a wi&#281;c jakby energi&#281; 
-cz&#261;stki promieniowania
-kosmicznego widzian&#261; przez spoczywaj&#261;cy nukleon z jakiego&#347; j&#261;dra ziemskiej
-atmosfery). Na osi pionowej od&#322;o&#380;ono &#347;redni&#261; liczb&#281; cz&#261;stek na&#322;adowanych
-wychodz&#261;cych z takiego zderzenia.
-<br>
-
-<table border="0" cellpadding="3" width="100%">     
-<tr>      
-    <td valign="top"> 
-<font size =+1>
-
- Jak wida&#263; w obszarze energii wiekszych
-od 10<sup><font size=-1>15</font></sup> eV
- nie ma ju&#380; &#380;adnych danych. Co wi&#281;cej, nie istnieje do ko&#324;ca spojna
-i daj&#261;ca konkretne przewidywania teoria oddzi&#322;ywan silnych (cho&#263; istnieje
-ju&#380; jej nazwa: <i>chromodynamika kwantowa QCD</i>). Nie wiemy wi&#281;c tak naprawd&#281;,
-ile cz&#261;stek produkuje si&#281; w oddzia&#322;ywaniach silnych w wielkim p&#281;ku
-atmosferycznym. 
-
-</td>  
- <td valign="center" >
-
-<img src="nch350.jpg" 
-        alt="krotnosc czastek naladowanych">
-
-</td>
-</tr>
-</table>
-</tr>
-<!--<br><center>
-<img src="pt350.jpg" 
-        alt="sredni ped poprzeczny"></center>
-<br>
-
-</td></tr>
-</table>
-<table border="0" cellpadding="3" width="95%"> -->
-     
-<tr>      <td valign="top">  <font size =+1>  
-
-<br><hr><br>
-<b> ca&#322;e zoo cz&#261;stek elementarnych</b><br><br>
-
-Nie jest to jedyny problem z jakim spotykamy sie przy
-opisie procs&#243;w produkcji w zderzeniach hadron&#243;w. W odr&#243;&#380;nieniu od
-elektrodynamiki (<i>kwantowej - QED</i>), w&#347;r&#243;d wyprodukowanych hadron&#243;w panuje
-ogromna roznorodno&#347;&#263;. Wsp&#243;&#322;czesne tablice cz&#261;stek elementarnych
-(<a href="http://pdg.lbl.gov" target="_top">Particle Data Group</a>) zawieraj&#261;
-ju&#380; setki rodzaj&#243;w cz&#261;stek o r&#243;&#380;nych masach, &#322;adunkach, czasach &#380;ycia nie
-m&#243;wiac ju&#380; o takich dziwnych i trudnych do wyobra&#380;eniach parametrach jak
-"dziwno&#347;&#263;" w&#322;a&#347;nie, "powab", albo "parzyto&#347;&#263;" (i to jeszcze na przyk&#322;ad
-"kombinowana", albo "&#322;adunkowa"). Trudno jest je nawet zliczy&#263;, ale w sumie s&#261; ich ju&#380; tysiace,
-je&#347;li uwzgl&#281;dni&#263; wszystkie ich stany i mo&#380;liwo&#347;ci istnienia. A wszystkie on mog&#261; by&#263; (i
-s&#261;) produkowane w wielkich   p&#281;kach promieniowania kosmicznego. Na
-szcz&#281;&#347;cie tak si&#281; sk&#322;ada, &#380;e im ci&#281;&#380;sza i bardziej egzotyczna cz&#261;stka, tym
-mniejsza jest szansa na jej powstanie i, generealnie, jej czas &#380;ycia, gdy ju&#380;
-nawet powstanie, jest kr&#243;tszy. Dzi&#281;ki temu w wielkich p&#281;kach dominuj&#261; cz&#261;stki
-najl&#380;ejsze, nazywaj&#261; si&#281; <i>pionami</i> i <i>kaonami</I>.     <br>
-
-Pion jest
-naj&#380;ejszym hadronem i wyst&#281;puje w trzech rodzajach: na&#322;adowany elektrycznie  
-dodatnio, ujemnie i niena&#322;adowany w og&#243;le, czyli neutralny. 
-Neutralne maj&#261; t&#281; charakterysyczn&#261; w&#322;asno&#347;&#263;, &#380;e
-rozpadaj&#261; si&#281; z czasem &#380;ycia ("&#347;redno mniej wi&#281;cej po czasie") rzedu 10<sup><font
-size=-1>-18</font></sup> sekundy (w spoczynku), co nawet po uwzgl&#281;dnieniu
-poprawki wynikajacej z teorii wzgledno&#347;ci, o jakiej by&#322;a mowa przy okazji
-mion&#243;w, daje rozpad i tak praktycznie w punkcie (chwili) powstania. 
-<br>
-Piony
-niena&#322;adowane rozpadaj&#261; si&#281; na dwa fotony  (w zdecydowanej wiekszo&#347;ci
-przypadk&#243;w). Fotony te nios&#261; dalej ca&#322;&#261; energi&#281; pionu i je&#347;li by&#322;a ona  
-dostatecznie du&#380;a, daj&#261; poczatek dwu kaskadom elektromagnetycznym. A to opisane ju&#380; 
-zostalo powyzej. St&#261;d si&#281; w&#322;a&#347;nie bierze <i>sk&#322;adowa mi&#281;kka</i> wielkiego
-p&#281;ku.    
-<br>
-Piony na&#322;adowane &#380;yja d&#322;u&#380;ej i je&#347;li ich energie s&#261; wystarczaj&#261;co
-du&#380;e, maj&#261; one szanse, zanim sie rozpadn&#261;, oddzia&#322;a&#263; silnie z innym nukleonem wchodz&#261;cym w sk&#322;ad
-j&#261;der atmosfery. W oddzia&#322;ywaniu takim produkuj&#261; si&#281;
-kolejne hadrony przyczyniajac si&#281; do pojawienia si&#281; w p&#281;ku tak zwanej
-<i>sk&#322;adowej hadronowej</i>. <br>
-Gdyby za&#347; zdarzy&#322;o si&#281;, &#380;e pion na&#322;adowany jednak si&#281;  
-rozpadnie najcz&#281;&#347;ciej produktami takiego rozpadu s&#261; mion (nios&#261;cy elektryczny
-&#322;adunek pionu) i odpowiednie <i>neutrino</i>. O neutrinach nie wspominali&#347;my jeszcze,
-bo to zupe&#322;nie inna i niew&#261;tpliwie te&#380; pasjonuj&#261;ca historia. Z punktu widzenia wielkiego p&#281;ku jednak jest to historia nieistotna, gdy&#380; neutrina prawie wcale nie oddzia&#322;ywauj&#261; z materi&#261;. Unosz&#261; one tylko troch&#281; energii pionu i mog&#261; j&#261; spokojnie unie&#347;&#263; do Australii cho&#263;by, bo przej&#347;cie przez Ziemi&#281;,
-nawet przez sam jej &#347;rodek, jest dla neutrin z grubsza bu&#322;k&#261; z mas&#322;em (mo&#380;e nie jest to najlepsze zobrazowanie nik&#322;o&#347;ci odpowiedniego przekroju czynnego. Tak czy inaczej o neutrinach chwilowo mo&#380;emy zapomnie&#263;.)
-Z rozpad&#243;w pion&#243;w na&#322;adowanych rodzi sie w p&#281;ku sk&#322;adowa
-mionowa zwana <i>tward&#261;</i>. Piony nie s&#261; jedynym &#378;r&#243;d&#322;em mion&#243;w p&#281;kowych. Kaony,
-kt&#243;rych te&#380; w oddzia&#322;ywaniach silnych produkuje si&#281; sporo, wystepuj&#261; a&#380; w
-czterech rodzajach (dw&#243;ch na&#322;adowanych i dw&#243;ch neutralnych). Kaony s&#261; najl&#380;ejszymi hadronami obdarzonymi <i>dziwno&#347;ci&#261;</i>. M&#243;wi si&#281; o nich cz&#261;stki dziwne. Watro wiedzie&#263;, &#380;e kaony i dziwno&#347;&#263; jako taka te&#380; odkryte zosta&#322;y w badaniach promieniowania kosmicznego. <br>
-W wyniku   
-rozpadow kaon&#243;w tak&#380;e powstaj&#261; miony (je&#347;li oczywi&#347;cie wcze&#347;niej po drodze kaon taki
-nie oddzi
-Ostatecznie hadron&#243;w w wielkich p&#281;kach jest stosunkowo ma&#322;o, gdy&#380;
-je&#347;li tylko energia ich zmniejszy si&#281; znacznie zaczynaj&#261; si&#281; szybko rozpada&#263;
-Poza protonami rzecz jasna (i neutronami, kt&#243;rych czas &#380;ycia jest z p&#281;kowego punktu widzenia por&#243;wnywalny z wieczno&#347;ci&#261;: 886.7 sekund). Protony i neutrony jednak ze wzgl&#281;du na swoj&#261; mas&#281; 2000 razy
-wieksz&#261; od masy elektronu i prawie 10 razy wieksz&#261; ni&#380; masa pionu, czy mionu
-i &#322;adunek barionowy, jaki niosa, tworzone s&#261; raczej rzadko.
-    
-
-<br><hr><br>
-<b>jeszcze troch&#281; o oddzia&#322;ywaniach silnych</b>
-<br><br>
-<table border="0" cellpadding="3" width="100%">     
-<tr>      
-    <td valign="top"> 
-<font size =+1>
-
-Chcac powiedzie&#263; dok&#322;adnie ile, jakich i gdzie (jak daleko
-od osi) cz&#261;stek jest w p&#281;ku zainicjowanym przez okre&#347;lon&#261; (co do
-rodzaju i energii) cz&#261;stk&#281; <i>pierwotnego promieniowania kosmicznego</i> 
-musieliby&#347;my wiedzie&#263; tak naprawd&#281; nie tylko, ile
-i jakich cz&#261;stek wyprodukowanych zostanie w ka&#380;dym zderzeniu, ale tak&#380;e z jak&#261;  
-energi&#261; i w kt&#243;r&#261; stron&#281; ka&#380;da z nich poleci. 
-
-
-
-</td>  
- <td valign="center" >
-
-<img src="pt350.jpg" 
-        alt="sredni ped poprzeczny"></center>
-<br>
-
-</td></tr>
-</table>
-</td></tr><tr><td>
-<font size =+1>
-Rysunek pokazuje jak silnie, &#347;rednio rzecz bior&#261;c, rozrzucane s&#261; cz&#261;stki wyprodukowane w oddzia&#322;ywaniach wysokich energii. Na pionowej osi zaznaczony jest &#347;redni p&#281;d uzyskiwany przez te cz&#261;stki w kierunku poprzecznym do osi zderzenia (je&#347;li cz&#261;stka leci "z g&#243;ry", to jest to kierunek "na boki").
-Jak wida&#263; wszystko tu te&#380; zmienia si&#281; z energi&#261; oddzia&#322;ywania i znowu nikt nie wie dok&#322;adnie,
-jak to mo&#380;na policzy&#263; (QCD!), a dane, jakimi dysponujemy s&#261; do&#347;&#263; skromne - jak wida&#263;.
-<br><hr><br>
-<b>po co to wszystko i co z tego wynika</b>
-<br><br>
-Wielkie p&#281;ki interesuj&#261; nas bo chcemy zna&#263; odpowid&#378; na dwa pytania:
-<ul>
+The Extensive Air Showers are of interest to us because we want to know the answer to two questions:
 <li>
-Z czego zrobiony jest nasz Wszech&#347;wiat? A konkretnie: co tak naprad&#281; dociera do granic naszej atmosfery?</li>
-<li>
-Jak zrobiony jest  nasz Wszech&#347;wiat? A konkretnie: jakie s&#261; prawa rz&#261;dz&#261;ce mikro&#347;wiatem?
-</li>
-</ul> 
-W tej drugiej sprawie:<br>
-Prawdopodobnie nigdy w warunkach ziemskich laboratori&#243;w nie powstanie maszyna zderzaj&#261;ca cz&#261;stki elementarne o energiach (laboratoryjnych) 10<sup><font size=-1>20</font></sup>eV. Jedynym &#378;r&#243;d&#322;em danych
-o tym, jak zachowuje si&#281; materia w stanach tak ekstremalnych b&#281;dzie obserwacja wielkich p&#281;k&#243;w. 
-Obraz wielkiegop&#281;ku rejestrowany na powierzchni ziemi odwierciedla (w bardzo zawik&#322;any spos&#243;b) to, ile i jakich cz&#261;stek produkowane jest w oddzia&#322;ywaniach, oraz to, jak szeroko s&#261; rozrzucone. QCD, gdy 
-wreszcie powstanie, b&#281;dzie musia&#322;a opisa&#263; tak&#380;e wielkie p&#281;ki. A gdy nie opisze? (To dopiero b&#281;dzie ciekawie!)<br>
-A w pierwszej:<br>
-Wiemy, &#380;e cz&#261;stki pierwotnego promieniowania kosmicznego maj&#261; gigantyczne energie. I to jest w&#322;a&#347;ciwie jedyna rzecz, kt&#243;r&#261; o nich wiemy napewno. Wiemy dzi&#347;, &#380;e nie wiemy sk&#261;d one do nas przychodz&#261;. Wiemy, &#380;e nie wiemy, czy to pojedy&#324;cze protony - j&#261;dra atom&#243;w wodoru, czy j&#261;dra, na przyk&#322;ad, &#380;elaza. Wod&#243;r we Wszech&#347;wiecie wyst&#281;puje w nieco (?) innych (?) miejscach ni&#380; &#380;elazo. No i jak w ko&#324;cu takie j&#261;dra uzyska&#322;y swoje olbrzymie energie? Nie mamy poj&#281;cia. S&#261; to te rzeczy na niebie, o kt&#243;rych, g&#322;&#243;wnie z braku wiedzy, nie mo&#380;emy &#347;ni&#263; nawet. A pewnie chcieliby&#347;my.<br>
-Chcialiby&#347;my wiedzie&#263; obserwuj&#261;c jednoczesne sygna&#322;y z detektor&#243;w wielkiej, p&#281;kowej aparatury,
-co tak naprawd&#281; zdarzy&#322;o si&#281; w&#322;a&#347;nie.
-
-
-
-
-<!--Ze wzgl&#281;du na wspomniany ju&#380; brak
-teorii (QCD), nie wiemy tego i mo&#380;na podejrzewa&#263;, &#380;e biorac pod uwage liczb&#281;
-mo&#380;liwo&#347;ci (zmiennych) dok&#322;adne policzenie odpowiednich <i>prawdopodobie&#324;stw</i> 
-zaj&#347;cia
-okre&#347;lonej reakcji nigdy nie bedzie mo&#380;liwe (do ko&#324;ca i dok&#322;adnie).
-Nie chc&#261;c uchodzi&#263; za przesadnych perfekcjonist&#243;w   mo&#380;emy spr&#243;bowa&#263;
-samoograniczy&#263; si&#281; do jakiego&#347; przybli&#380;onego z natury "&#347;redniego" obrazu  
-wielkiego p&#281;ku.
-<br>
--->
-
-
-
+	What is our Universe made of? Specifically, what actually reaches the boundaries of our atmosphere?
+	</li><li>
+How is our Universe made? And more specifically: what are the laws that govern the microworld?
+	</li>
+On this second point:<br>
+It is likely that a machine colliding elementary particles with (laboratory) energies of  10<sup><font
+size=-1>20</font></sup> eV will never be created 
+	under Earth laboratory conditions.
+	The only source of data on how matter behaves in such extreme states will 
+	be the observation of EAS. The image of the shower recorded at the surface reflects (in a very convoluted 
+	way) how many and which particles are produced in the high-energy interactions, and how widely they are scattered. 
+	QCD, when it finally emerges, will have to describe the showers too. And when it fails to describe them? 
+	(That's going to be interesting!)
+<br><br>
+	And in the first one:<br>
+We know that the particles of the primary cosmic radiation have gigantic energies. And this is actually the only thing 
+	we know for sure about them. What we know today is that we don't know where they are coming from. We know that 
+	we do not know whether they are individual protons - nuclei of hydrogen atoms - or nuclei of, for example, iron. 
+	Hydrogen occurs in the Universe in slightly (?) different (?) places than iron. And how did such nuclei get their 
+	enormous energies? We have no idea. These are the things in the sky, about which, mainly for lack of knowledge, we 
+	cannot even dream. And we would probably like to.<br>
+We would like to know, by observing simultaneous signals from the detectors of a huge, shower arrays, what has really happened.
 
 </td> </tr>
 </table> 
@@ -569,12 +228,12 @@ cellpadding="3" width="95%">
 </table>
 </div>
 <p align="center"><font size="2">
-Copyright  T.Wibig. All rights reserved.<br>
+<!--Copyright  T.Wibig. All rights reserved.<br>
 
 E-mail:<a href="mailto:wibig@zpk.u.lodz.pl">
 wibig@zpk.u.lodz.pl</a><br>
 WWW: <a href="http://www.u.lodz.pl/~wibig" target="_top">www.u.lodz.pl/~wibig
-</a><br>
+</a><br>-->
 </font></p>
 
 </body>
